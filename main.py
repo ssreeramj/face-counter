@@ -1,5 +1,4 @@
 import os
-import json
 
 import boto3
 import cv2
@@ -35,6 +34,7 @@ def get_faces(img):
 
             cv2.rectangle(output_image, (left, top), (left+width, top+height), (0, 0, 255), 2)
 
+        
         cv2.imwrite(os.path.join(IMG_DIR, f'res_{img}'), output_image)
 
         return len(face_details)
