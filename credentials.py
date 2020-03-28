@@ -1,2 +1,2 @@
-ACCESS_ID = 'AKIASYFEHNI7RL57CHTY'
-SECRET_KEY = 'rUlAPY2XrgMyQx1iFZJYYrXFm9eQYkTBkcyt/3jw'
+ACCESS_ID = '' # Enter your access id here
+SECRET_KEY = '' # Enter your secret key here
