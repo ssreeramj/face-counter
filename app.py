@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask, render_template, request
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 
 from main import get_faces
 
